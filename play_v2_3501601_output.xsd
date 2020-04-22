@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="playa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="predicciones">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="estado_cielo"/>
+                                        <xs:element type="xs:string" name="viento"/>
+                                        <xs:element type="xs:string" name="oleaje"/>
+                                        <xs:element type="xs:string" name="t_maxima"/>
+                                        <xs:element type="xs:string" name="s_termica"/>
+                                        <xs:element type="xs:int" name="t_agua"/>
+                                        <xs:element type="xs:int" name="uv_max"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:int" name="fecha" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="nombre" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

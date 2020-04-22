@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playa nombre="Las Canteras" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="play_v2_3501601_output.xsd">
+    <predicciones>
+        <dia fecha="20200416">
+            <estado_cielo>nuboso</estado_cielo>
+            <viento>flojo</viento>
+            <oleaje>flojo</oleaje>
+            <t_maxima/>
+            <s_termica>suave</s_termica>
+            <t_agua>20</t_agua>
+            <uv_max>9</uv_max>
+        </dia>
+        <dia fecha="20200417">
+            <estado_cielo>despejado</estado_cielo>
+            <viento>flojo</viento>
+            <oleaje>flojo</oleaje>
+            <t_maxima/>
+            <s_termica>suave</s_termica>
+            <t_agua>22</t_agua>
+            <uv_max>9</uv_max>
+        </dia>
+        <dia fecha="20200418">
+            <estado_cielo>nuboso</estado_cielo>
+            <viento>flojo</viento>
+            <oleaje>flojo</oleaje>
+            <t_maxima/>
+            <s_termica>suave</s_termica>
+            <t_agua>22</t_agua>
+            <uv_max>7</uv_max>
+        </dia>
+    </predicciones>
+</playa>

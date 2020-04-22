@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<playa id="3501601" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.aemet.es/xsd/playas.xsd">
+    <origen>
+        <productor>Agencia Estatal de Meteorología - AEMET. Gobierno de España</productor>
+        <web>http://www.aemet.es</web>
+        <language>es</language>
+        <copyright>© AEMET. Autorizado el uso de la información y su reproducción citando a AEMET como autora de la misma.</copyright>
+        <nota_legal>http://www.aemet.es/es/nota_legal</nota_legal>
+    </origen>
+    <elaborado>2020-04-16T07:50:02</elaborado>
+    <nombre>Las Canteras</nombre>
+    <localidad>35016</localidad>
+    <prediccion>
+        <dia fecha="20200417">
+            <estado_cielo f1="100" descripcion1="despejado" f2="120" descripcion2="muy nuboso"/>
+            <viento f1="210" descripcion1="flojo" f2="210" descripcion2="flojo"/>
+            <oleaje f1="330" descripcion1="fuerte" f2="330" descripcion2="fuerte"/>
+            <t_maxima valor1="22"/>
+            <s_termica valor1="460" descripcion1="calor agradable"/>
+            <t_agua valor1="22"/>
+            <uv_max valor1="9"/>
+        </dia>
+        <dia fecha="20200418">
+            <estado_cielo f1="110" descripcion1="nuboso" f2="110" descripcion2="nuboso"/>
+            <viento f1="210" descripcion1="flojo" f2="220" descripcion2="moderado"/>
+            <oleaje f1="320" descripcion1="moderado" f2="320" descripcion2="moderado"/>
+            <t_maxima valor1="21"/>
+            <s_termica valor1="450" descripcion1="suave"/>
+            <t_agua valor1="21"/>
+            <uv_max valor1="7"/>
+        </dia>
+        <dia fecha="20200419">
+            <estado_cielo f1="110" descripcion1="nuboso" f2="100" descripcion2="despejado"/>
+            <viento f1="220" descripcion1="moderado" f2="220" descripcion2="moderado"/>
+            <oleaje f1="320" descripcion1="moderado" f2="320" descripcion2="moderado"/>
+            <t_maxima valor1="22"/>
+            <s_termica valor1="450" descripcion1="suave"/>
+            <t_agua valor1="20"/>
+            <uv_max valor1="10"/>
+        </dia>
+    </prediccion>
+</playa>
