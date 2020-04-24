@@ -29,24 +29,24 @@ Here you will find shortcuts to the files 📥
 
 [index HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/index.html) - HTML already transformed
 
-[1º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/play_v2_3501601-html.xsl) - 1º XSL that transforms the original XML into HTML
+[1º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date1.xsl) - 1º XSL that transforms the original XML into HTML
 
-[1º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/index.html) - 1º HTML already transformed
+[1º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date1.html) - 1º HTML already transformed
 
-[2º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/play_v2_3501601-html.xsl) - 2º XSL that transforms the original XML into HTML
+[2º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date2.xsl) - 2º XSL that transforms the original XML into HTML
 
-[2º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/index.html) - 2º HTML already transformed
+[2º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date2.html) - 2º HTML already transformed
 
-[3º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/play_v2_3501601-html.xsl) - 3º XSL that transforms the original XML into HTML
+[3º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date3.xsl) - 3º XSL that transforms the original XML into HTML
 
-[3º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/index.html) - 3º HTML already transformed
+[3º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date3.html) - 3º HTML already transformed
 
 ## Built With 🛠️
 
 * [Netbeans](https://netbeans.org/) - IDE
 * [VisulStudioCode](https://code.visualstudio.com/) - Other IDE
 
-## Authors 🖋👩🏽‍💻
+## Authors 🖋
 
 * **Mónica Ilenia Tardón Vera** [monitv98](https://github.com/monitv98)
 
