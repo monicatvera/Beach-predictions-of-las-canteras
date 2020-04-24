@@ -19,7 +19,7 @@ Here you will find shortcuts to the files 📥
 
 [XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/play_v2_3501601-html.xsl) - XSL that transforms the original XML into HTML
 
-[HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/play_v2_3501601.html) - HTML already transformed
+[HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/index.html) - HTML already transformed
 
 
 
