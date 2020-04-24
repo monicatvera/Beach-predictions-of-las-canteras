@@ -22,7 +22,8 @@
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
                 <!-- style CSS -->
-                <link rel="stylesheet" href="css/style.css"/>                        
+                <link rel="stylesheet" href="css/style.css"/>  
+                <script src="js/index.js"></script>                      
             </head>
             <body>
                 <header>
@@ -41,21 +42,28 @@
                                 <div>
                                     <div class="text-center">
                                         <br/>
-                                        <br/>
+                                        <p><i class="fas fa-info-circle"></i> Si quiere más información más detallada, pulse la fecha deseada.</p>
                                         <div class="container">
                                             <div class="table-responsive">
                                                 <table class="table table-bordered table-striped">
                                                     <thead>
                                                         <tr>
-                                                            <th>Predicción playa de <xsl:value-of select="/playa/nombre"/></th>
+                                                            <th>
+                                                                <h2>Predicción playa de <xsl:value-of select="/playa/nombre"/></h2>
+                                                            </th>
                                                             <xsl:for-each select="/playa/prediccion/dia">
+                                                                <xsl:variable name="i" select="position()"/>
                                                                 <xsl:variable name="fecha" select="@fecha"/>
                                                                 <xsl:variable name="year" select="substring($fecha, 1, 4)"/>
                                                                 <xsl:variable name="month" select="substring($fecha, 5, 2)"/>
                                                                 <xsl:variable name="day" select="substring($fecha, 7, 2)"/>
                                                                 <xsl:variable name="date-iso" select="concat($day, '-', $month, '-', $year)" />  
                                                                 <th> 
-                                                                    <xsl:value-of select="$date-iso"/>
+                                                                    <h5> 
+                                                                        <a href="date{$i}.html">
+                                                                            <xsl:value-of select="$date-iso"/>
+                                                                        </a>
+                                                                    </h5>
                                                                 </th>
                                                             </xsl:for-each>
                                                         </tr>
@@ -63,7 +71,7 @@
                                                     <tbody>
                                                         <tr>
                                                             <td>
-                                                                <h2>Estado del cielo</h2>
+                                                                <h3>Estado del cielo</h3>
                                                             </td>
                                                             <xsl:for-each select="/playa/prediccion/dia">
                                                                 <td>
@@ -75,7 +83,7 @@
                                                         </tr> 
                                                         <tr>
                                                             <td>
-                                                                <h2>Viento</h2>
+                                                                <h3>Viento</h3>
                                                             </td>
                                                             <xsl:for-each select="/playa/prediccion/dia">
                                                                 <td>
@@ -87,7 +95,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                <h2>Oleaje</h2>
+                                                                <h3>Oleaje</h3>
                                                             </td>
                                                             <xsl:for-each select="/playa/prediccion/dia">
                                                                 <td>
@@ -99,19 +107,19 @@
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                <h2>Temperatura máxima (°C)</h2>
+                                                                <h3>Temperatura máxima (°C)</h3>
                                                             </td>
                                                             <xsl:for-each select="/playa/prediccion/dia">
                                                                 <td>
                                                                     <h4>
-                                                                        <xsl:value-of select="t_maxima/@valor1"/>
+                                                                        <xsl:value-of select="concat(t_maxima/@valor1,'ºC')"/>
                                                                     </h4>
                                                                 </td>
                                                             </xsl:for-each>
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                <h2>Sensación térmica</h2>
+                                                                <h3>Sensación térmica</h3>
                                                             </td>
                                                             <xsl:for-each select="/playa/prediccion/dia">
                                                                 <td>
@@ -123,19 +131,19 @@
                                                         </tr> 
                                                         <tr>
                                                             <td>
-                                                                <h2>Temperatura del agua (°C)</h2>
+                                                                <h3>Temperatura del agua (°C)</h3>
                                                             </td>
                                                             <xsl:for-each select="/playa/prediccion/dia">
                                                                 <td>
                                                                     <h4>
-                                                                        <xsl:value-of select="t_agua/@valor1"/>
+                                                                        <xsl:value-of select="concat(t_agua/@valor1, 'ºC')"/>
                                                                     </h4>
                                                                 </td>
                                                             </xsl:for-each>
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                <h2>Índice UV máximo</h2>
+                                                                <h3>Índice UV máximo</h3>
                                                             </td>
                                                             <xsl:for-each select="/playa/prediccion/dia">
                                                                 <td>

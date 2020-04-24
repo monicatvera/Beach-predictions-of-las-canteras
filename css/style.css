@@ -26,8 +26,20 @@ body {
     color: #fff;
     opacity: 0.7;
   }
-
+  .table th {
+    text-align: center;
+  }
+  .table td {
+    text-align: center;
+  }
   
+  a {
+    color: #fff;
+  }
+
+  a:hover {
+    color: rgb(255, 5, 5);
+  }
   .jumbotron{
     margin-bottom:0;
    }
