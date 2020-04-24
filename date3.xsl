@@ -56,7 +56,6 @@
                                                     <thead>
                                                         <tr>
                                                             <th rowspan="2">
-                                                                <h2>Predicción playa de <xsl:value-of select="/playa/nombre"/></h2>
                                                             </th> 
                                                             <th colspan="2"> 
                                                                 <h2>

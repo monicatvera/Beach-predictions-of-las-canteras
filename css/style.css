@@ -22,15 +22,24 @@ body {
   }
  
   .table{
-    background-color: #06284E;
     color: #fff;
     opacity: 0.7;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 0px;
   }
   .table th {
+    background-color: #06284E;
     text-align: center;
   }
   .table td {
+    background-color: #06284E;
     text-align: center;
+  }
+  .hidden {
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 5px;
   }
   
   a {

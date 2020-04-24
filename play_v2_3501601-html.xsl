@@ -49,7 +49,7 @@
                                                     <thead>
                                                         <tr>
                                                             <th>
-                                                                <h2>Predicción playa de <xsl:value-of select="/playa/nombre"/></h2>
+                     
                                                             </th>
                                                             <xsl:for-each select="/playa/prediccion/dia">
                                                                 <xsl:variable name="i" select="position()"/>
