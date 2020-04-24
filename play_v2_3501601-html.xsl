@@ -42,7 +42,8 @@
                                 <div>
                                     <div class="text-center">
                                         <br/>
-                                        <p><i class="fas fa-info-circle"></i> Si quiere más información más detallada, pulse la fecha deseada.</p>
+                                        <p>
+                                            <i class="fas fa-info-circle"></i> Si quiere más información más detallada, pulse la fecha deseada.</p>
                                         <div class="container">
                                             <div class="table-responsive">
                                                 <table class="table table-bordered table-striped">
@@ -162,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        </div>
                 </section>        
                 <footer class="page-footer font-small blue darken-4">
 

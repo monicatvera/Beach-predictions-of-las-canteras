@@ -7,12 +7,13 @@ function initialize() {
 function displayResult()
 {
 xml = loadXMLDoc("http://www.aemet.es/xml/playas/play_v2_3501601.xml");
-xsl = loadXMLDoc("../play_v2_3501601-html.xsl");
+xsl = loadXMLDoc("play_v2_3501601-html.xsl");
+var inde = "index.html";
 // code for IE
 if (window.ActiveXObject || xhttp.responseType == "msxml-document")
   {
   ex = xml.transformNode(xsl);
-  document.getElementById("example").innerHTML = ex;
+  inde = ex;
   }
 // code for Chrome, Firefox, Opera, etc.
 else if (document.implementation && document.implementation.createDocument)
@@ -20,7 +21,7 @@ else if (document.implementation && document.implementation.createDocument)
   xsltProcessor = new XSLTProcessor();
   xsltProcessor.importStylesheet(xsl);
   resultDocument = xsltProcessor.transformToFragment(xml, document);
-  document.getElementById("example").appendChild(resultDocument);
+  inde = resultDocument;
   }
 }
 
