@@ -27,20 +27,47 @@ Here you will find shortcuts to the files 📥
 
 [XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/play_v2_3501601-html.xsl) - XSL that transforms the original XML into HTML index
 
-[index HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/index.html) - HTML already transformed
+[index HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/index.html) - HTML already transformed [view the page](https://beach-predictions.web.app/index.html)
 
 [1º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date1.xsl) - 1º XSL that transforms the original XML into HTML
 
-[1º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date1.html) - 1º HTML already transformed
+[1º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date1.html) - 1º HTML already transformed [view the page](https://beach-predictions.web.app/date1.html)
 
 [2º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date2.xsl) - 2º XSL that transforms the original XML into HTML
 
-[2º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date2.html) - 2º HTML already transformed
+[2º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date2.html) - 2º HTML already transformed [view the page](https://beach-predictions.web.app/date2.html)
 
-[3º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date3.xsl) - 3º XSL that transforms the original XML into HTML
+[3º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date3.xsl) - 3º XSL that transforms the original XML into HTML 
 
-[3º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date3.html) - 3º HTML already transformed
+[3º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/date3.html) - 3º HTML already transformed [view the page](https://beach-predictions.web.app/date3.html)
 
+[4º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section1.xsl) - 4º XSL that transforms the original XML into HTML
+
+[4º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section1.html) - 4º HTML already transformed [view the page](https://beach-predictions.web.app/section1.html)
+
+[5º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section2.xsl) - 5º XSL that transforms the original XML into HTML
+
+[5º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section2.html) - 5º HTML already transformed [view the page](https://beach-predictions.web.app/section2.html)
+
+[6º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section3.xsl) - 6º XSL that transforms the original XML into HTML
+
+[6º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section3.html) - 6º HTML already transformed [view the page](https://beach-predictions.web.app/section3.html)
+
+[7º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section4.xsl) - 7º XSL that transforms the original XML into HTML
+
+[7º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section4.html) - 7º HTML already transformed [view the page](https://beach-predictions.web.app/section4.html)
+
+[8º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section5.xsl) - 8º XSL that transforms the original XML into HTML
+
+[8º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section5.html) - 8º HTML already transformed [view the page](https://beach-predictions.web.app/section5.html)
+
+[9º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section6.xsl) - 9º XSL that transforms the original XML into HTML
+
+[9º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section6.html) - 9º HTML already transformed [view the page](https://beach-predictions.web.app/section6.html)
+
+[10º XSL to HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section7.xsl) - 10º XSL that transforms the original XML into HTML
+
+[10º HTML](https://github.com/monitv98/Beach-predictions-of-las-canteras/blob/master/section7.html) - 10º HTML already transformed [view the page](https://beach-predictions.web.app/section7.html)
 ## Built With 🛠️
 
 * [Netbeans](https://netbeans.org/) - IDE

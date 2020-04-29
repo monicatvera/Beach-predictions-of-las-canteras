@@ -19,6 +19,9 @@ body {
     margin-bottom: 0;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
   }
  
   .table{

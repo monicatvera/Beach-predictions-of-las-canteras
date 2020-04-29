@@ -6,10 +6,10 @@ function initialize() {
 
 function displayResult()
 {
-  xml = loadXMLDoc("https://cors-anywhere.herokuapp.com/http://www.aemet.es/xml/playas/play_v2_3501601.xml");
-xsl = loadXMLDoc("date2.xsl");
+xml = loadXMLDoc("https://cors-anywhere.herokuapp.com/http://www.aemet.es/xml/playas/play_v2_3501601.xml");
+xsl = loadXMLDoc("section1.xsl");
 // code for IE
-if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+if (window.ActiveXObject || http.responseType == "msxml-document")
   {
   ex = xml.transformNode(xsl);
   document.getElementById("upload").innerHTML = ex;
@@ -28,14 +28,14 @@ function loadXMLDoc(filename)
 {
 if (window.ActiveXObject)
   {
-  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+  http = new ActiveXObject("Msxml2.XMLHTTP");
   }
 else
   {
-  xhttp = new XMLHttpRequest();
+  http = new XMLHttpRequest();
   }
-xhttp.open("GET", filename, false);
-try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
-xhttp.send("");
-return xhttp.responseXML;
+http.open("GET", filename, false);
+try {http.responseType = "msxml-document"} catch(err) {} // Helping IE11
+http.send("");
+return http.responseXML;
 }
